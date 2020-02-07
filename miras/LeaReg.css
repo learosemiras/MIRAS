@@ -1,0 +1,80 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+/********************/
+.modal-one
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  padding: 180px 20px;
+  border-radius: 10px;
+  background: #5CD365;
+}
+/********************/
+.logo
+{
+  width: 50%;
+  margin-top: -170px;
+  margin-bottom: 220px;
+}
+.modal-two
+{
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #B6E4F7;	
+}
+.modal-two input[type="text"]
+{
+  margin: 5px auto;
+  padding: 13px 18px;
+  border: none;
+  border-bottom: 3px solid #21B82C;
+  background: transparent;
+  text-align: center;
+  outline: white;
+}
+.modal-two input[type="email"]
+{
+  margin: 5px auto;
+  padding: 13px 18px;
+  border: none;
+  border-bottom: 3px solid #21B82C;
+  background: transparent;
+  text-align: center;
+  outline: none;
+}
+.modal-two input[type="password"]
+{
+  margin: 5px auto;
+  padding: 13px 18px;
+  border: none;
+  border-bottom: 3px solid #21B82C;
+  background: transparent;
+  text-align: center;
+  outline: none;
+}
+.modal-two input[type="submit"]
+{
+  margin: 15px 0px;
+  width: 203px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #21B82C;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  color: white;
+}

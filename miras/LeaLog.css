@@ -1,0 +1,110 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+/********************/
+.box-one
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  padding: 80px 20px;
+  border-radius: 10px;
+  background: #5CD365;
+}
+.logo
+{
+  width: 60%;
+  margin-top: -70px;
+  margin-bottom: 230px;
+}
+/******************/
+.box-two
+{
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #B6E4F7;	
+}
+.box-two input[type="text"]
+{
+  margin: 5px auto;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  outline: none;
+}
+.box-two input[type="password"]
+{
+  margin: 10px auto;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  outline: none;
+}
+.box-two input[type="checkbox"]
+{
+  float: left;
+  margin: 0px 3px;
+}
+.box-two p
+{
+  float: left;
+  margin: 0px 0px;
+  color: gray;
+  font-weight: bold;
+  font-size: 13px;
+}
+.box-two a
+{
+  margin: 0px 0px;
+  float: right;
+  color: gray;
+  font-size: 13px;
+  text-decoration: none;
+}
+.box-two input[type="submit"].log
+{
+  margin: 10px 0px;
+  width: 203px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background: #21B82C;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  color: white;
+}
+.box-two input[type="submit"].reg
+{
+  margin: 10px 7px;
+  width: 203px;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  background: #21B82C;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  color: white;
+}
+.box-two h5
+{
+  margin: -5px;
+  color: gray;
+  font-size: 10px;
+}

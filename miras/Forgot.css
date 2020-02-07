@@ -1,0 +1,76 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+/********************/
+.box-one
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 120px 40px;
+  border-radius: 10px;
+  background: #5CD365;
+}
+.box-two
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background: #B6E4F7;	
+}
+.box-two h2
+{
+	float: left;
+	margin: 0px -30px;
+	font-size: 15px;
+	color: #6E6968;
+}
+.box-two input[type="email"]
+{
+	float: left;
+  margin: 5px -30px;
+  padding: 13px 55px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  outline: none;
+}
+.box-two input[type="submit"].SR
+{
+  float: right;
+  margin: 0px 30px;
+  width: 80px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #21B82C;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  color: white;
+}
+.box-two input[type="submit"].CC
+{
+  float: right;
+  margin: 0px -25px;
+  width: 80px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #21B82C;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  color: white;
+}
